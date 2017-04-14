@@ -8,11 +8,15 @@ public class HelloWorld {
 		System.out.println("Soy un nuevo método");
 	}
 
-	public int suma(int a, int b) {
+	public int sumar(int a, int b) {
 		return a+b;
 	}
 
-	public int resta(int a, int b) {
+	public int restar(int a, int b) {
 		return a-b;
+	}
+
+	public int multiplicar(int a, int b) {
+		return a*b;
 	}
 }
